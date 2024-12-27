@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>留言板</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>阿鲁巴高水平运动队</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">首页</a></li>
+                <li><a href="photos.html">照片</a></li>
+                <li><a href="documents.html">文档</a></li>
+                <li><a href="guestbook.html" class="active">留言板</a></li>
+                <li><a href="contact.html">联系我</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="guestbook">
+            <h2>留言板</h2>
+            <form id="guestbook-form">
+                <input type="text" id="name" placeholder="是谁来啦？" required>
+                <textarea id="message" placeholder="说点什么吧" required></textarea>
+                <button type="submit">提交</button>
+            </form>
+            <div id="messages"></div>
+        </section>
+    </main>
+    <footer>
+        <p>版权所有 八班全体&copy; 2022</p>
+        <p>制作 张牙膏&copy; 2024</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
